@@ -27,7 +27,7 @@
       },
       moveRatio: {
         type: Number,
-        default: 0.25
+        default: 0.2
       },
       showIndicator: {
         type: Boolean,
@@ -50,7 +50,7 @@
 
         // 2.开启定时器
         this.startTimer();
-      }, 300)
+      }, 500)
     },
     methods: {
 		  /**
